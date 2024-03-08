@@ -1,0 +1,39 @@
+.input-with-placeholder {
+    width: 250px;
+    position: relative;
+  }
+  .input-with-placeholder label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 300ms all;
+  }
+  .input-with-placeholder input {
+    width: 100%;
+    color: rgb(253, 253, 253);
+    height: 40px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 0 15px;
+    background: #ecde16;
+  }
+
+  .input-with-placeholder input:focus + label {
+    height: 50%;
+    padding-left: 0;
+    transform: translateY(-100%);
+    font-size: 12px;
+    color: #fcf7f7;
+  }
+
+.card{
+    width : 300px;
+    height:400px;
+    border: 1px solid rgb(2, 20, 119);
+    border-radius: 20%;
+    margin: 50px auto;
+}
